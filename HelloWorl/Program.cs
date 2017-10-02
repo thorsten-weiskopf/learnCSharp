@@ -11,9 +11,9 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Person p = new Person();
-            p.Age = 5;
-            Console.WriteLine("Hello World " +p.Age);
+            //Person p = new Person();
+            var p = new Person { Age = 6, Name = "Thorty"};    //var can be used everytime, Defaultkonstruktor wird genutzt danach die Getter und Setter automatisch aufgerufen        
+            Console.WriteLine("Hello World " +p.Age +" " +p.Name);
             Console.ReadKey();        
         }
     }
@@ -21,6 +21,7 @@ namespace HelloWorld
 class Person
     {
         private int age;
+        private string name;
 
         //The Java Style:
         /*
@@ -42,7 +43,25 @@ class Person
         }
         */
         // the c# way when things are simple
-        public int Age { get; set; } = 5; //5 is default value
+        public int Age { get; set; } = 2;
+        public string Name { get; set; }
+
+        //Konstruktor überladung
+        public Person(): this (0, "")
+        {
+        }
+
+        public Person(int age) : this(age, "")
+        {
+        }
+
+
+        public Person (int age, string name)
+        {
+            this.age = age;
+            this.name = name;
+        }
+
     }
 
 
