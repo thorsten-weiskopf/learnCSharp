@@ -17,8 +17,12 @@ namespace HelloWorld
             Console.WriteLine("Hello World " +p.Age +" " +p.Name);
             Console.ReadKey();
 
-            WorkingWithLists.printList();
-            
+            //WorkingWithLists.printList();
+            WorkingWithDelegate dele = new WorkingWithDelegate();
+            dele.useDelegateAction();
+
+
+            Console.ReadKey();
         }
     }
 
