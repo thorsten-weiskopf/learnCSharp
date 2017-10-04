@@ -12,14 +12,21 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            /*
             //Person p = new Person();
             var p = new Person { Age = 6, Name = "Thorty"};    //var can be used everytime, Defaultkonstruktor wird genutzt danach die Getter und Setter automatisch aufgerufen        
             Console.WriteLine("Hello World " +p.Age +" " +p.Name);
             Console.ReadKey();
+            */
 
             //WorkingWithLists.printList();
+
+            /*
             WorkingWithDelegate dele = new WorkingWithDelegate();
             dele.useDelegateAction();
+            */
+
+            WorkingWithThreads.Play();
 
 
             Console.ReadKey();
