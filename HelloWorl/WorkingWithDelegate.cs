@@ -10,20 +10,31 @@ namespace HelloWorl
     {
 
         private delegate void myDelegate();
-
+        //Often in C#
+        //Action is a Delegate that returns noting and can have 0 ore more arg.
+        //Func is a Delegate that returns something and can have 0 ore more arg.
 
         public void useDelegateAction()
         {
 
-            var func = new myDelegate(print);
-            func.Invoke();
+            //action
+            var action = new Action<int>(print);
+            action.Invoke(1);
+            //func
+            var func = new Func<int, int, int>(printAndCount);
+            var count = func.Invoke(5,5);
 
         }
 
 
-        private void print()
+        private void print(int i)
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine("Action " + i);
+        }
+        private int printAndCount(int i, int a)
+        {
+            Console.WriteLine("Func " + i +" " +a);
+            return i+a;
         }
 
     }
