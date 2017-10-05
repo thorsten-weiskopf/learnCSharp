@@ -49,6 +49,8 @@
     <Compile Include="WorkingWithLists.cs" />
     <Compile Include="WorkingWithThreads.cs" />
     <Compile Include="WorkWithEvents.cs" />
+    <Compile Include="WorkWithEvents2.cs" />
+    <Compile Include="WorkWithGenerics.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -3,3 +3,4 @@ C:\thorsten\worspace_visualstudio\Learning\HelloWorl\bin\Debug\HelloWorl.exe
 C:\thorsten\worspace_visualstudio\Learning\HelloWorl\bin\Debug\HelloWorl.pdb
 C:\thorsten\worspace_visualstudio\Learning\HelloWorl\obj\Debug\HelloWorl.exe
 C:\thorsten\worspace_visualstudio\Learning\HelloWorl\obj\Debug\HelloWorl.pdb
+C:\thorsten\worspace_visualstudio\Learning\HelloWorl\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
