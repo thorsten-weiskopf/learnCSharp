@@ -48,6 +48,7 @@
     <Compile Include="WorkingWithDelegate.cs" />
     <Compile Include="WorkingWithLists.cs" />
     <Compile Include="WorkingWithThreads.cs" />
+    <Compile Include="WorkWithEvents.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

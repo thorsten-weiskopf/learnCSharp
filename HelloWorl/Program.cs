@@ -26,8 +26,9 @@ namespace HelloWorld
             dele.useDelegateAction();
             */
 
-            WorkingWithThreads.Play();
-
+            //WorkingWithThreads.Play();
+            WorkWithEvents we = new WorkWithEvents();
+            we.TestEvent();
 
             Console.ReadKey();
         }
