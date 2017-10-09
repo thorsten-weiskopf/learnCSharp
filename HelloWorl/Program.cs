@@ -28,12 +28,13 @@ namespace HelloWorld
 
             //WorkingWithThreads.Play();
 
-            //WorkWithEvents we = new WorkWithEvents();
-            //we.TestEvent();
+            WorkWithEvents we = new WorkWithEvents();
+            we.TestEvent();
 
+            /*
             WorkWithGenerics wwg = new WorkWithGenerics();
             wwg.TestGenerics();
-
+            */
             Console.ReadKey();
         }
     }

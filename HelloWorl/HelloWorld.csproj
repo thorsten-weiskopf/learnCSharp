@@ -50,6 +50,7 @@
     <Compile Include="WorkingWithThreads.cs" />
     <Compile Include="WorkWithEvents.cs" />
     <Compile Include="WorkWithEvents2.cs" />
+    <Compile Include="WorkWithEvents3.cs" />
     <Compile Include="WorkWithGenerics.cs" />
   </ItemGroup>
   <ItemGroup>
