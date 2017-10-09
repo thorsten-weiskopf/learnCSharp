@@ -27,9 +27,12 @@ namespace HelloWorld
             */
 
             //WorkingWithThreads.Play();
-
+            /*
             WorkWithEvents we = new WorkWithEvents();
             we.TestEvent();
+            */
+            workWithExceptions we = new workWithExceptions();
+            we.testExceptionHandling();
 
             /*
             WorkWithGenerics wwg = new WorkWithGenerics();
